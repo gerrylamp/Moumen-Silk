@@ -1,0 +1,29 @@
+@media (max-width: 1200px) {
+  .banner-right {
+    width: 400px;
+  }
+  .banner-right img {
+    width: 430px;
+  }
+  .banner-left {
+    width: 450px;
+  }
+}
+@media (max-width: 991px) {
+  .banner-left {
+    width: auto;
+  }
+  .banner .d-flex .align-items-center {
+    flex-direction: column;
+  }
+  .calendly1 {
+    display: none;
+  }
+  .calendy2 {
+    display: block;
+  }
+  .gradient-bg {
+    height: auto;
+    padding: 50px 0;
+  }
+}
