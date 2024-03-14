@@ -11,7 +11,6 @@
 }
 .banner-right {
   width: 500px;
-  height: 720px;
 }
 .banner-right img {
   right: 80px;
@@ -54,4 +53,30 @@ ul li:before {
   height: 20px;
   background-repeat: no-repeat;
   background-image: url("img/check.png");
+}
+
+/* Section 2 */
+.section-2{
+    background-image: linear-gradient(
+    to top,
+    rgba(18, 179, 194, 10%),
+    rgba(189, 218, 159, 10%)
+  );
+}
+.section-2 .container-fluid{
+    padding: 100px 0;
+}
+.section-2 .mortgage-rates{
+    gap: 20px;
+}
+.section-2 .mortgage-rates div{
+    background-color: #BDDA9F;
+    border-radius: 20px;
+    padding: 20px 30px 10px;
+}
+.section-2 .mortgage-rates div span{
+    color: #12B3C2;
+}
+.section-2 .div2 .d-flex{
+    gap: 100px;
 }
